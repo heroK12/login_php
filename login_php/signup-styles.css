@@ -1,0 +1,97 @@
+body{
+	text-align: center;
+	margin: 0 auto;
+	/*background: linear-gradient(#FFB3E7,#E401FF)fixed;*/
+	background:#333;
+}
+
+.sign-form{
+	font-family:'sans-serif';
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	background: #fff;
+	width: 20%;
+	height: 30em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  position: absolute;
+	margin: auto;
+}
+.name{
+	background-color: #ccc;
+	display: block;
+	width: 50%;
+ 	margin:0 auto;
+ 	margin-top: 50px;
+ 	padding: 15px;
+ 	border: none;
+ 	border-radius: 5px;
+ 	font-size: 16px;
+}
+
+.email{
+	background-color: #ccc;
+	display: block;
+	width: 50%;
+ 	margin:0 auto;
+ 	margin-top: 10px;
+ 	padding: 15px;
+ 	border: none;
+ 	border-radius: 5px;
+ 	font-size: 16px;
+}
+
+.password{
+	background-color: #ccc;
+	display: block;
+	width: 50%;
+ 	margin:0 auto;
+ 	margin-top: 10px;
+ 	padding: 15px;
+ 	border: none;
+ 	border-radius: 5px;
+ 	font-size: 16px;
+}
+
+.err_msg{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	-webkit-animation: fadeinout 4s linear forwards;
+	animation: fadeinout 4s linear forwards;
+	opacity: 0;
+}
+
+.scs_msg{
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	-webkit-animation: fadeinout 4s linear forwards;
+	animation: fadeinout 4s linear forwards;
+	opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+#submit_button{
+	margin-top: 40px;
+	width: 150px;
+	height: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-family: sans-serif;
+	border:none;
+	border-radius: 4px;
+	background-color: #333;
+}
+
+.not-account{
+	margin-top:30px;
+}
